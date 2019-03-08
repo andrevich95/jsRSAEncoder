@@ -1,0 +1,12 @@
+body{
+    padding-top: 20px;
+}
+.centered{
+    text-align: center;
+    padding: 20px;
+    color: gray;
+}
+.btn-list{
+    margin: auto;
+    text-align: center;
+}

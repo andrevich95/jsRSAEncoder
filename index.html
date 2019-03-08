@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Encoder-Decoder</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="style.css"/>
+        <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <h1 class="centered">Encoder-Decoder</h1>
+        <div class="container">
+            <div class="row jumbotron">
+                <div class="col-md-4">
+                    <h2>Original string</h2>
+                    <label>
+                        <textarea class="form-control" rows="20" cols="50" id="encode_text"></textarea>
+                    </label>
+                </div>
+                <div class="col-md-4 btn-list">
+                    <button class="btn btn-success" id="encode">Encode</button>
+                    <button class="btn btn-danger" id="decode">Decode</button>
+                </div>
+                <div class="col-md-4">
+                    <h2>Decoded string</h2>
+                    <label>
+                        <textarea class="form-control" rows="20" cols="50" id="decode_text"></textarea>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
